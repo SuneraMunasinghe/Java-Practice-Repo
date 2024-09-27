@@ -7,6 +7,8 @@ import java.util.Scanner;
 public class firstClass {
 
 	public static void main(String[] args) {
+		 
+		//System.out.println("Hello world");
 		// TODO Auto-generated method stub
 //		System.out.println("Hello");
 //		
@@ -334,6 +336,15 @@ public class firstClass {
 		
 //		printArray(sortDescending(descArray));
 		
+		Enemy myEnemy = new Enemy();
+		myEnemy.setHealth(69);
+		
+		//Copying the object with references.
+		Enemy clonedEnemy = myEnemy;
+		
+		System.out.println(myEnemy.toString());
+		System.out.println(clonedEnemy.toString());
+
 
 		
 	}	// !!! END MAIN METHOD !!!

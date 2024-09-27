@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Retesting {
+module BurgherHut {
 }

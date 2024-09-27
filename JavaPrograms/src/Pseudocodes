@@ -1,0 +1,10 @@
+Pseudocode to add 100 numbers.
+
+count = 1+2+3+4+.....+99+100
+total=0
+
+FOR(i=1 TO 100)
+	total+=array[i]
+ENDFOR
+
+number = count - total
